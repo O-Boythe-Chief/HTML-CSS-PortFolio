@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center; 
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+}
+
+img {
+    display: block;
+    margin: 1em auto;
+    border-radius: 5px;
+}
+
+nav {
+    margin-top: 2em;
+    text-align: center; 
+}
+
+nav a {
+    margin: 0 1em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.container p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.container form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.container form input[type="text"],
+.container form input[type="email"],
+.container form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.container form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.container p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+.container form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.container form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.container form input[type="text"],
+.container form input[type="email"],
+.container form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.container form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.about-me {
+    background-color: #f9f9f9;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-me h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.about-me p {
+    margin-bottom: 1em;
+}
+
+.contact-me {
+    background-color: #f9f9f9;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-me h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.contact-me form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-me form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.contact-me form input[type="text"],
+.contact-me form input[type="email"],
+.contact-me form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-me form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-me form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    flex-wrap: wrap;
+}
+
+.contact-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border: 1px solid #333;
+    border-radius: 5px;
+    flex-basis: 45%;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.contact-links a:hover {
+    background-color: #333;
+    color: #fff;
+}
